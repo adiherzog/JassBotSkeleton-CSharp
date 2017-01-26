@@ -19,8 +19,6 @@ Furthermore the Server URI can also be supplied as the first command line argume
 
 The project uses C# 6. It's easiest to build it using Visual Studio 2015 (The free Community Edition should do).
 
-If you want to build the bot on the command line, you can do this by executing MSBuild.exe (e.g. `"C:\Program Files (x86)\MSBuild\14.0\Bin\MSBuild.exe"`).
-
 ## Implement Game Logic
 
 Start by improving the implementation of `TrumpfChooser.cs` and `CardChooser.cs`.
