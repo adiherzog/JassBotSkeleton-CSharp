@@ -79,7 +79,7 @@ namespace JassBot.JassLogic
                 }
                 else
                 {
-                    return GetMyCardsThatMatchPlayedSuit().Concat(GetMyTrumpfs());
+                    return GetMyCardsThatMatchPlayedSuit().Concat(GetMyTrumpfsThatDoNotUndertrumpf());
                 }
             }
             else if (HaveOtherCardsThanTrumpf())
